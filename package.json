@@ -1,7 +1,7 @@
 {
   "name": "vue-webpack",
   "version": "1.0.0",
-  "description": "A Vue.js project1",
+  "description": "A Vue.js project",
   "author": "Jamie",
   "private": true,
   "scripts": {
