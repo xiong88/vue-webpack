@@ -28,7 +28,7 @@ export function timeDiff(startTime, endTime) {
     let seconds = Math.round(leave3 / 1000)
     let format = null;
     if (days > 30) {
-        let date = new Date();
+        let date = new Date(startTime);
         format = (date.getMonth() + 1) + "月" + date.getDate() + "日";
     } else if (days >= 1) {
         format = days + ' 天前';
